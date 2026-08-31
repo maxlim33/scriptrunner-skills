@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "scriptrunner",
+  "description": "ScriptRunner agent skills and plugins.",
+  "owner": {
+    "name": "Example",
+    "email": "support@example.com"
+  },
+  "plugins": [
+    {
+      "name": "scriptrunner-skills",
+      "source": "./",
+      "description": "Agent skills for working with ScriptRunner products, APIs, documentation, and examples across Jira Cloud, Confluence Cloud, and Data Center.",
+      "repository": "https://github.com/maxlim33/scriptrunner-skills"
+    }
+  ]
+}
