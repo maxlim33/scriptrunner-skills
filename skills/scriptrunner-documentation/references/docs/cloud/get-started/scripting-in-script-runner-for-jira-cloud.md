@@ -22,7 +22,7 @@ Outlined below are the various programming languages used for scripting and thei
 | [Built-in Scripts](../features/built-in-scripts.md) |  |  |  |  |  |  |
 | [Enhanced Search](https://docs.adaptavist.com/db/organizations/adaptavist/repositories/master/content/documents/Adaptavist_Content/ScriptRunner/ScriptRunner_for_Jira_Cloud_SR4JC/topics/scriptrunner_enhanced_search.dita) |  |  |  |  |  |  |
 | [Scheduled Jobs](../features/scheduled-jobs.md) |  |  |  |  |  |  |
-| [Script Console](https://docs.adaptavist.com/db/organizations/adaptavist/repositories/master/content/documents/Adaptavist_Content/ScriptRunner/ScriptRunner_for_Jira_Cloud_SR4JC/topics/scriptrunner_enhanced_search.dita) |  |  |  |  |  |  |
+| [Script Console](../features/script-console.md) |  |  |  |  |  |  |
 | [Script Listeners](../features/script-listeners.md) |  |  |  |  |  |  |
 | [Script Fragments](../features/script-fragments.md) |  |  |  |  |  |  |
 | [Scripted Fields](../features/scripted-fields.md) |  |  |  |  |  |  |
@@ -61,6 +61,8 @@ HAPI is an API used for carrying out common tasks in Jira. These can include man
 HAPI does not require you to [rewrite existing scripts](https://docs.adaptavist.com/sr4jc/latest/hapi/rewrite-scripts-with-hapi). However, should you wish to make your current scripts more manageable then you might want to update them to use HAPI. Read all about it in our [HAPI](../uncategorized/h/hapi.md) section.
 
 ## Code editor
+
+Use the code editor to write and manage scripts in ScriptRunner with intelligent editing features and code completions.
 
 Use the code editor to write scripts in ScriptRunner. The code editors use an intelligent code editor. The browser-based code editor provides code completions, inline Javadoc lookups, inline find and replace, and error line indication. This editor has autocomplete for the following code:
 
